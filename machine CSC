@@ -1,4 +1,4 @@
-#machine creation ;change the is0 images and select rocky ,linux and red hate 8bit select 2cpu,16gb and finish  go to settting select bridge 
+# machine creation ;change the is0 images and select rocky ,linux and red hate 8bit select 2cpu,16gb and finish  go to settting select bridge 
 changing pointing devices 3 how to spin start, storage configuration (custom),add partition /booot500mb,/bioboot500mb,swap500mb
 ,var4g,/ set password add username and passsword begin installation then reboot system
 #machine configuration ; first select activities ,open terminal, switch to root user by su- and enter 2file opening configuration;vim /etc/sysc
