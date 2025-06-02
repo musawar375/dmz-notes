@@ -1,0 +1,5 @@
+ssh allow two server two communiocate share data recusively stand for stand sercure shell
+to generate key;ssh-keygen
+to copy ip address from another =ssh-copy-id 192.168.100.102
+to excess the server without entering password=ssh 192.168.100.102
+back to previous serrver=exit
