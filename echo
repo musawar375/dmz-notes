@@ -1,0 +1,16 @@
+previous command tell=echo $?
+file text add:echo >>>file1
+uppend:echo good morning >>file1 
+override:echo newtext >file1
+print=echo hello
+first line read=head ini tab
+last ten line read=tail in tab 
+first 3 line read=head -5 ini tab
+l ast 3 line read=tail -3 ini tab 
+words count file= wc ini tab
+specific linme words=wc -l ini tab
+specific words w=wc -w ini tab
+2 command running =pwd;ll
+pwd ll
+where is command present= man pwd
+list of package install while spinning machine=rpm -qa
