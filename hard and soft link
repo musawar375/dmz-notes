@@ -1,0 +1,11 @@
+hard link duplicate version while soft link shortcut create easy 
+hardlink: ln usa/pak/india/testfile link1
+softlink:ln -s usa/pak/india/testfile link2
+root;owner group;shared
+change owner:chown musawar file1 change group ;chgrp musawar file1
+chjange both owner and group; chowm musawar;musawar file2
+owner or file change data;chown -r musawar;musawar usa
+simple directory;chown 
+-mean file d mean directory 
+oermissiuonm all permission=7 read and write =4,2 all permission=7
+  numerically changing permiussion ;chmod 767 file1
