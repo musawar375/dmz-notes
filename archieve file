@@ -1,0 +1,5 @@
+to create artchive file=tar -cvf archive.tar file1 file2 file3 file4
+see list of file according to size=ll -sh
+reduce size =tar -cvzf archive.tar file1 file2 file3 file4
+extract file=tar -vxf archive.tar  -cdirct1
+to see the content bof archive file without extracting it =tar -tvf archive.tar
