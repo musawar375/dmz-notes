@@ -1,0 +1,14 @@
+how to check hostname;hostname 2.how to change hostname:hostnamectl set-hostname jumpserver 3.how to check list:ll
+4.to refresh terminal:bash 5.to create file:touch filename 5.how to clear screen:ctrl l 
+directory commands 1.to create directory : mkdir dirt name 2.to create directory structure:mkdir -p/dir1/dir2/dir3
+3.to change dirct:cd directory name 4.to change directory to root page:cd 5.to move back previous directory;cd ..
+6.to check history of work:history 7.to install a package:yum -y install tree 8.to check directory structure:tree dirct name
+9.to see information package:yum info tree 10:to remove the packaGE:YUM -Y REMOVE PACKAGE NAME 11.To see working repitories
+on system:yum repolist12.to remove directory:rmdirdirect name 13.to remove file:rm -rf 14.to seee information:uname -a
+to see the release version of system:uname -r(kernel listing) 16.to see disk space:df -h 17. to read file :cat filename
+18.to edit file;vim filename 19.to check current user:whoami 20.to see path of location:whereis disk use ;du -h
+
+(save file:wq copy:yy paste:p delete:dd delete comeback:u first line;gg lat line;shift g 7paste:7p)
+amount of time system has been running :uptime comm and shortcut:aliascurrent directory:pwd copy file:cp filename dirct name
+network connectivity:ping useradd:useradd ali username:id ali (username) password:passwd ali
+o:insert mode see line number:se nu to change data:%s/hi hi /hello/g exit:% clear screen:ctrl clear
