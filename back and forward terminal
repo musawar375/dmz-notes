@@ -1,0 +1,8 @@
+background: terminal use to run the process sleep 20s &
+to list all background process:jobs
+forward
+terminal stack  background process  to forgroundfg %1
+SIGKILL kill -9 forcefully
+SIGTERM kill -15 gracefully
+reboot system (init 6,reboot,shutdown -r)
+poweroff(systemctl,poweroff)
