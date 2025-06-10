@@ -1,0 +1,8 @@
+group add=groupadd -sysadmin
+to read the group=cat /etc/group
+to add user in the group=usermod -aG sysadmin 
+to see user name=cd /home
+to see list of kernel=lsmod
+to see list of cpu=lscpu
+to see memory of server=free
+giga bita=free -m
