@@ -1,0 +1,11 @@
+add disk
+> pvcreate /dev/diskname
+> vgextend vgname(previous created in lvgcreate) /dev/diskname
+> lvextend -L +2G /vgname/lvname -r
+
+*********var extend**********
+> Add disk
+> pvcreate /dev/diskname
+> vgextend rl /dev/diskname
+> lvextend -L +1G /dev/rl/var -r
+> lvs
