@@ -1,0 +1,14 @@
+stand for redundant array of independent disk green and red light in server if one fail another is working
+  also have 2 internet connection and 2 power supply
+types of RAID
+RAID 0 has no duplicate data
+data is lost due to speed
+RAID 1
+each disk have same data and it has duplicate copy data has been copied more than one disk
+RAID 5
+data is not duplicate but striped multiple disk along with parity ( is used to rebuild the data)
+3,4 tetrabytes will be used for actual data
+RAID 10 
+it is cominabination of RAID1 and RAID 0 is called RAID 10
+you need minimum 4 disk
+yu can use 50% data for storage
