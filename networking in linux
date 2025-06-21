@@ -1,0 +1,17 @@
+ifconfig:ip config stand for interface configuration.network and pc are connected to each other
+Ip command:it is latest and updated version of if config
+traceroute:traceroute is one of useful commands.it is used to troubleshoot the network
+tracepath:tracepath issimilar to tracerouter.it does not require root priviliges
+ping:linux ping is one of most used network trouble shooting command
+netstat:netstat refer to network statics
+ss:linux sscommand is replacement for netstat command.it is regarded much faster and more information command
+than netstat
+DIG:linux dig command stand for domain infiormation groper
+Ns lookup :is used for DNS related queries
+host:display the domain name for given ip adress and ip adress for given hostname
+arp:arp stand for adress resolution protocol
+iw config:is used to configure the wireless network interface
+whois:is used to fetch to all information related to website
+iftop:is used for traffic mointiring
+mtr:is combination of ping and tracerouter
+ssh:enables you to connect securely with remove host over internet
