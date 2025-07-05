@@ -1,0 +1,22 @@
+when server on machine has been in working condition 
+it expalin the linux boot process working 
+how is it work .it describe the different phases of boot process working
+BIOS: first program that executed which is stored in read only memory on motherrboard computer
+check for bootable device like pendrive hard disk
+handover control to first sector of device
+MBR:master boot record
+512 bytes,first sector of bootble machine contain machine code contain 
+boot loader
+parition table 
+it will load the boot loader into memory and handover to it
+GRUB
+load/boot/grub2/grub.config
+  at this stage,user will see GRUB asking different os
+once you selected the kernel,it locate the corresponding kernel library
+KERNEL:
+first kernel is loaded into read only made
+iniramf get decomposed and then it is first load 
+mount other parition like lvm,raid
+  SYSTEM D:first service loaded with process ID 1
+  start all required process
+ls -l runlevel
