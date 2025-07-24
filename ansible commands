@@ -1,0 +1,5 @@
+ansible all -i all-yaml/server-list -m ping 
+ansible all -i all-yaml/server-list -m file -a "path=/tmp/firstdir state=directory"
+    ansible all -i all-yaml/server-list -m file -a "path=/tmp/firstdir/file1 state=touch"
+     ansible all -i all-yaml/server-list -m user -a "name=john state=present"
+   
