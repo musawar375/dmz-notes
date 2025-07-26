@@ -2,4 +2,26 @@ ansible all -i all-yaml/server-list -m ping
 ansible all -i all-yaml/server-list -m file -a "path=/tmp/firstdir state=directory"
     ansible all -i all-yaml/server-list -m file -a "path=/tmp/firstdir/file1 state=touch"
      ansible all -i all-yaml/server-list -m user -a "name=john state=present"
-   
+    ansible all -i all-yaml/server-list -m lineinfile -a "path=/tmp/testfile line='hello' create=yes"
+  ansible all -i all-yaml/server-list -m yum -a "name=httpd state=latest"
+      ansible all -i all-yaml/server-list -m service -a "name=httpd state=started"
+     ansible all -i all-yaml/server-list -m service -a "name=httpd enabled= yes"
+
+     ansible all -i all-yaml/server-list -m service -a "name=httpd state=restarted'
+    ansible all -i all-yaml/server-list -m service -a "name=httpd state=restarted"
+    ansible all -i all-yaml/server-list -m service -a "name=httpd state=stopped"
+     ansible all -i all-yaml/server-list -m firewalld -a "port=2049/tcp permanent=true state=enabled immediate=true
+    ansible all -i all-yaml/server-list -m firewalld -a "port=2049/tcp permanent=true state=enabled immediate=true"
+     ansible all -i all-yaml/server-list -m firewalld -a "port=2049/udp permanent=true state=enabled immediate=true"
+     ansible all -i all-yaml/server-list -m firewalld -a "service=mountd permanent=true state=enabled immediate=true"
+     ansible all -i all-yaml/server-list -m firewalld -a "service=rpc-bind permanent=true state=enabled immediate=true"
+     ll
+     touch file1
+     ansible all -i all-yaml/server-list -m copy -a "src=~/file1 dest=/tmp"
+   ansible-doc lineinfile
+     ansible-doc yum
+      ansible-doc service
+      ansible-doc firewalld
+    ansible-doc copy
+
+ 
